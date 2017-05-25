@@ -4,4 +4,9 @@ function initMap(){
     zoom: 18,
     center: laboratoriaLima
   });
+
+  var markLaboratoria = new google.maps.Marker({
+    position: laboratoriaLima,
+    map: map
+  })
 }
