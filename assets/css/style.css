@@ -1,0 +1,11 @@
+#map{
+  height: 90vh;
+}
+.w-100vw{
+  width: 100%;
+}
+#btn-find-me{
+  background-color: #F6A623;
+  color: white;
+  padding: 0.8rem;
+}
