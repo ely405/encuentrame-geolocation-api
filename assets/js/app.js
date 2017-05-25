@@ -10,3 +10,16 @@ function initMap(){
     map: map
   })
 }
+
+function successFunction(){
+  var lat = position.coords.latitude;
+  var lon = position.coords.longitude;
+}
+
+function findMe(){
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(successFunction, errorFunction);
+    } else {
+        x.innerHTML = "La geolocalización no es compatible con este navegador.";
+    }
+}
